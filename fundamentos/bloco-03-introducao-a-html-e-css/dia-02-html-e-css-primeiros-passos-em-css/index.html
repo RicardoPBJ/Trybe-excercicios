@@ -7,20 +7,47 @@
         .hmod {
             width: 65px;
             color: orange;
+            font-family: sans-serif;
+            text-align: right;
+            text-decoration: solid;
         }
         .pulmod p, ul{
-            background-color: blue;
+            background-color: black;
             color: white;
         }
+        .p{
+            font-weight: 600;
+            font-size: 3em;
+            text-align: center;
+        }
+        .body {
+            font-size: 16px;
+        }
+        .ulremake {
+            font-style: oblique;
+            line-height: 30px;
+            text-align: center;
+
+        }
+        #yellow {
+            color: yellow;
+        }
+        #red {
+            color: red;
+        }
+        #brown {
+            color: brown;
+        }
+
     </style>
   </head>
-  <body>
+  <body class="body">
     <h1 class="hmod">Exercícios 3.2</h1>
-    <div class="pulmod"><p>Qual é a sua cor favorita?</p>
-        <ul>
-            <li>Amarelo</li>
-            <li>Vermelho</li>
-            <li>Marrom</li>
+    <div class="pulmod"><p class="p">Qual é a sua cor favorita?</p>
+        <ul class="ulremake">
+            <li id="yellow">Amarelo</li>
+            <li id="red">Vermelho</li>
+            <li id="brown">Marrom</li>
         </ul>
     </div>
   </body>
